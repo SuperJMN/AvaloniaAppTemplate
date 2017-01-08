@@ -1,0 +1,12 @@
+﻿{
+  "dependencies": {
+    "Avalonia.DotNetFrameworkRuntime": "2.0.0",
+    "OmniXaml.Avalonia": "2.0.0"
+  },
+  "frameworks": {
+    "net462": {}
+  },
+  "runtimes": {
+    "win": {}
+  }
+}
