@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
 using OmniXaml.Avalonia;
 
-namespace WpfApp2
+namespace ClassicDesktop
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
