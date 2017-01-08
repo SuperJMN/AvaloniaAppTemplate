@@ -1,12 +1,7 @@
 ﻿<Window xmlns="https://github.com/avaloniaui" Title="Avalonia Application" 
-        xmlns:r="using:ClassicDesktop;assembly=ClassicDesktop"
+        xmlns:local="using:ClassicDesktop;assembly=ClassicDesktop"
         Width="300" Height="200">
-    <Window.DataContext>
-        <r:MainViewModel></r:MainViewModel>
-    </Window.DataContext>
     <StackPanel Margin="8">
-        <TextBlock FontWeight="Bold">Write some text</TextBlock>
-        <TextBox Text="{Binding Text, Mode=TwoWay}" />
-        <TextBlock Text="{Binding ProcessedText}" />
+        <TextBlock FontWeight="Bold">Hi! This is a sample text</TextBlock>
     </StackPanel>
 </Window>
